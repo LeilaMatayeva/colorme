@@ -1,0 +1,3 @@
+curl -X POST --data '{"recognized_thing": "cat"}' -H 'Content-Type: application/json' https://quickdiffusion--help16.repl.co/sd --output cool-image.jpg
+
+uvicorn --host 0.0.0.0 main:app
